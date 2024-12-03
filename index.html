@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="Ritesh_Resume_20 (1).pdf" download>CV</a></li>  
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="typing">
+                    <p>I'm a <span class="auto-type">Software And Mern Stack Engineer</span></p>
+                </div> 
+                <h1>Hi, I'm <span>Ritesh</span><br> Ranka From <br>India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, My Name is Ritesh Ranka, and I am a 21-year-old Computer Science Engineering student at SRM University Chennai. I am currently in my 4th year and have been interested in the field of Software Engineering and Mern Stack Developer for the past 2 years. I have completed One internships in this field and have gained valuable experience and skills that I am excited to apply in future endeavors. My passion for SOFTWARE AND MERN STACK ENGINEER has driven me to learn more about these emerging technologies and has motivated me to contribute to their growth and development. I am always eager to take on new challenges and learn from them, and I am confident that my dedication and hard work will enable me to make a positive impact in the field of SOFTWARE.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Software Developer</span><br>C++,DSA</li>
+                            <li><span>Mern Stack</span><br>Website Design</li>
+                            <li><span>Cricket</span><br>Hobby</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Oct 2023 - Dec 2023</span><br>Frontend And Backend @Scooterson Pte.ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>B.Tech in CSE  at SRM Institute of Science and Technology, Chennai</li>
+                            <li><span>2020 - 2021</span><br>Class 12th Major Maths, Physics, and Chemistry</li>
+                            <li><span>2019</span><br>Matric Pass</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>C++</h2>
+                    <p>OOPS and Data Structures and Algorithms</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>HTML,CSS</h2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>React.js</h2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>NODE.JS</h2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Express.js</h2>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>MongoDB</h2>
+                    <p>DataBases</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>RestAPI</h2>
+                    <p>API and Backend Developement in API</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Project3.jpg">
+                    <div class="layer">
+                        <h3>Textutils</h3>
+                        <p>real-time text manipulation with functions like uppercase, lowercase, and text cleanup. Optimized performance with React state management for a smooth and interactive user experience..</p>
+                        <a href="https://github.com/rn1737/Textutils" target ="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Project2.jpg">
+                    <div class="layer">
+                        <h3>Chat</h3>
+                        <p>Implemented message synchronization for consistent data transfer.</p>
+                        <a href="https://github.com/rn1737/whatsapp-chatting-app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Project1.jpg">
+                    <div class="layer">
+                        <h3>News</h3>
+                        <p>Developed a news aggregator website pulling articles from multiple APIs for diverse, up-to-date content..</p>
+                        <a href="https://github.com/rn1737/News-Website"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/rn1737" class="btn">See more</a> 
+        </div>
+    </div>
+    <!-- -------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>riteshranka2003@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 9929139121</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/rn1737"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ritesh-ranka-19836b236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Ritesh_Resume_20 (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright &copy; Ritesh Ranka. Referenced from Easy tutorials and made by Ritesh Ranka
+            </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+
+        var typed = new Typed(".auto-type", {
+            strings: ["SOFTWARE ENGINEER.", "MERN STACK.", "FULL STACK ENGINEER."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+    </script>
+</body>
+</html>
